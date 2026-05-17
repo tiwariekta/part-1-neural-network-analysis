@@ -28,15 +28,15 @@ Please download the dataset from the following link:
 
 ### 📁 Final Structure
 
-part-1-neural-network-analysis/
-├── notebook.ipynb
-├── README.md
-├── requirements.txt
-├── dataset/
-│   └── customer_churn_nn.csv
-├── results/
-│   ├── model_comparison_table.csv
-│   └── evaluation_outputs.png
+    part-1-neural-network-analysis/
+        ├── notebook.ipynb
+        ├── README.md
+        ├── requirements.txt
+        ├── dataset/
+        │   └── customer_churn_nn.csv
+        ├── results/
+        │   ├── model_comparison_table.csv
+        │   └── evaluation_outputs.png
 
 ---
 
