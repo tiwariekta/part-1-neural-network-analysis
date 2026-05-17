@@ -8,17 +8,62 @@ This project focuses on building and analyzing a feed-forward neural network for
 
 ## 📂 Dataset
 
-* Dataset: `customer_churn_nn.csv`
-* Target Variable: `churn`
+### 📂 Setup Instructions
 
-  * 1 → Customer churned
-  * 0 → Customer retained
+The dataset is not included in this repository as per submission guidelines.
+
+Please download the dataset from the following link:
+
+👉 https://drive.google.com/drive/folders/1akV6po4Nrgkc3yQrJkzA6cJlV-wBvUYs?usp=sharing
+
+---
+
+### 📁 Setup Steps:
+
+1. Download the dataset
+2. Extract the files
+3. Place the file `customer_churn_nn.csv` inside the `dataset/` folder
+
+---
+
+### 📁 Final Structure
+
+part-1-neural-network-analysis/
+├── notebook.ipynb
+├── README.md
+├── requirements.txt
+├── dataset/
+│   └── customer_churn_nn.csv
+├── results/
+│   ├── model_comparison_table.csv
+│   └── evaluation_outputs.png
+
+---
+
+### 📊 Dataset Description
+
+The dataset contains structured customer data used for churn prediction.
 
 ### Feature Types:
 
-* **Categorical**: region, plan_type, contract_type, payment_method
-* **Numerical**: tenure, charges, login activity, support tickets, data usage, satisfaction score, etc.
-* **Excluded**: `customer_id` (identifier, not predictive)
+* Input features include:
+
+  * Demographics and customer details
+  * Usage behavior
+  * Billing and subscription information
+
+* Target variable:
+
+  * `churn` (indicates whether a customer leaves or not)
+  * 1 → Customer churned
+  * 0 → Customer retained
+
+
+---
+
+### ⚠️ Note
+
+If the dataset file is not present in the `dataset/` folder, the notebook will not run and will prompt the user to download it.
 
 ---
 
